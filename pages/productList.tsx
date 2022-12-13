@@ -28,7 +28,7 @@ function ProductList() {
         {imageList.length !== 0 ? imageList.map((each,idx)=>{
             // console.log(customerList.length)
             return(
-              <div style={{display: "flex", justifyContent: "center", alignItems:"center"}}>
+              <div key={idx} style={{display: "flex", justifyContent: "center", alignItems:"center"}}>
                 <div style={{width: "500px", height: "500px", position: "relative"}}>
                   <Image src={each.image} key={idx} layout="fill" objectFit="contain"></Image>
                 </div>
