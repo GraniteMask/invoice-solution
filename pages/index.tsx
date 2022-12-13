@@ -88,8 +88,6 @@ const Home: NextPage = () => {
   
   function PrevArrow(props:any) {
     const { className, style, onClick } = props;
-
-    console.log(style, className)
     return (
       <ChevronLeftRoundedIcon onClick={onClick} style={{...style, display: "block", color: '#7161C5'}} className={className}/>
     );
