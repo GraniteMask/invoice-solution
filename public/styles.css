@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Prompt', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.navbar{
+    height: 62px;
+    justify-content: center;
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+.footer{
+    text-align: center !important;
+    
+}
+
+.children{
+    min-height: 100vh;
+    margin-left: 43px;
+    margin-right: 43px;
+}
+
+.invoice-generator{
+    color: #7161C5;
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+}
+
+.invoice-generator-navbar{
+    color: #7161C5;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    margin-top: -0.5rem !important;
+    margin-left: 1rem !important;
+}
+
+.invoice-image{
+    margin-top: -10rem;
+}
+
+.button-style{
+    min-height: 56px !important;
+    border-radius: 14.843px !important;
+    width: 200px !important;
+    background-color: #7161C5 !important;
+}
+
+.button-style:hover{
+    background-color: #4F4099 !important;
+}
+
+.button-style:focus{
+    background-color: #3B3077 !important;
+}
+
+.invoice-generator-options{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.invoice-card-content-wrapper{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.Mui-selected{
+    color: #604CC5 !important;
+    border-color: #604CC5 !important;
+}
+
+.MuiTabs-indicator{
+    background-color: #604CC5 !important
+}
+
+.save-invoice{
+    background-color: #EDEAFF !important;
+    color: #7161C5 !important;
+    box-shadow: none !important;
+    border-radius: 10px !important;
+    text-transform: none !important;
+}
+
+.save-changes{
+    background-color: #7161C5 !important;
+    color: #FFFFFF !important;
+    box-shadow: none !important;
+    border-radius: 10px !important;
+    text-transform: none !important;
+    margin-right: 0.3rem !important;
+}
+
+.save-changes:hover{
+    background-color: #4F4099 !important;
+}
+
+.save-changes:focus{
+    background-color: #3B3077 !important;
+}
+
+.save-invoice:hover{
+    background-color: #dbd5ff !important;
+}
+
+.invoice-card{
+    margin-top: 3rem;
+    border-top: #7161C5 10px solid;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.invoice-card-front-page{
+    margin-top: 3rem;
+    border-top: #7161C5 10px solid;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-box{
+    border: 1px solid #ACA5D6;
+    border-radius: 12.7641px;
+    min-height: 126px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.dropdown-box{
+    border: 1px solid #D1D5DB;
+    padding: 0.5rem;
+    border-radius: 6px;
+}
+
+.dropdown-box:hover{
+    border: 1px solid #292422;
+}
+
+.dropdown-box:focus{
+    border: 1px solid #0B0705;
+}
+
+.quantitySelector{
+    border: 1px solid #D1D5DB;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    width: 80%;
+    text-align: center;
+    height: 3rem;
+}
+
+.view-invoice{
+    border: 0.842755px solid #2A2A2A;
+    border-radius: 16.8551px !important;
+    width: 60%;
+    margin-left: 0 !important;
+    margin-bottom: 1rem !important;
+}
+
+
+.form-container{
+    margin-top: 7rem;
+}
+
+.focus-input{
+    margin-top: 3rem;
+}
+
+.buttons{
+    margin-top: 7rem;
+}
+
+.eachButton{
+    margin-top: 1rem;
+}
+
+.button-text-transform{
+    text-transform: none;
+}
+
+.hover-button{
+    color: #7161C5;
+}
+
+.active-button{
+    color: #604CC5;
+    border-bottom: 4px solid #604CC5;
+}
+
+.customer-wrapper{
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 769px) {
+    .view-invoice{
+        margin-left: 188px;
+    }
+    .preview-buttons{
+        margin-left: 150px;
+    }
+}
+
