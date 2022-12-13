@@ -46,8 +46,8 @@ const Home: NextPage = () => {
   const customSlider = useRef<Slider>(null);
 
   useEffect(()=>{
-    setInvoices(localStorage.getItem('invoices') != undefined ? JSON.parse(localStorage.getItem('invoices') || "") : [])
-    const invoiceData = JSON.parse(localStorage.getItem('invoices') || "")
+    setInvoices(localStorage.getItem('invoices') !== null ? JSON.parse(localStorage.getItem('invoices') || "") : [])
+    const invoiceData = localStorage.getItem('invoices') !== null  ? JSON.parse(localStorage.getItem('invoices') || "") : []
     dispatch(invoiceAdd(invoiceData))
   },[])
 

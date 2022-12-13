@@ -42,7 +42,7 @@ export default function Layout({title, description, children}:{children: React.R
     })
 
     useEffect(()=>{
-        const invoiceData = JSON.parse(localStorage.getItem('invoices') || "")
+        const invoiceData = localStorage.getItem('invoices') !== null  ? JSON.parse(localStorage.getItem('invoices') || "") : []
         dispatch(invoiceAdd(invoiceData))
     },[])
 
